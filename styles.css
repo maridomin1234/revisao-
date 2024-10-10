@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nota-fiscal-container {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.nota-header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.nota-info {
+    margin-bottom: 20px;
+}
+
+.nota-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.nota-valor {
+    margin-bottom: 10px;
+}
+
+.nota-footer p {
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
